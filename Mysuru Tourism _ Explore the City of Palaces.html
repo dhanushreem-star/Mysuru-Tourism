@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///C:/Dhanu/website%20mysuru/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore Mysuru - the cultural capital of Karnataka. Discover Mysuru Palace, Chamundi Hills, Brindavan Gardens, Mysuru Zoo and more.">
+
+    <meta name="author" content="Mysuru Tourism">
+
+    <title>Mysuru Tourism | Explore the City of Palaces</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./Mysuru Tourism _ Explore the City of Palaces_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="./Mysuru Tourism _ Explore the City of Palaces_files/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+
+    <link href="./Mysuru Tourism _ Explore the City of Palaces_files/css2" rel="stylesheet">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #333;
+            background: #fff;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* TOP HEADER */
+
+        .site-header {
+            background: #8b0000;
+            padding: 12px 0;
+        }
+
+        .site-header p {
+            font-size: 14px;
+        }
+
+        .site-header a {
+            text-decoration: none;
+        }
+
+        .site-header-icon {
+            color: #ffd700;
+        }
+
+        .social-icon {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 18px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .social-icon-link {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .social-icon-link:hover {
+            color: #ffd700;
+        }
+
+
+        /* NAVBAR */
+
+        .navbar {
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            color: #8b0000;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #d4af37;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #8b0000;
+        }
+
+
+        /* HERO */
+
+        .hero {
+            height: 90vh;
+            position: relative;
+        }
+
+        .carousel,
+        .carousel-inner,
+        .carousel-item {
+            height: 100%;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .carousel-image-wrap {
+            position: absolute;
+            inset: 0;
+        }
+
+        .carousel-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-item::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                rgba(0,0,0,0.6),
+                rgba(0,0,0,0.35)
+            );
+        }
+
+        .carousel-caption {
+            position: relative;
+            z-index: 5;
+            text-align: left;
+            height: 100%;
+            max-width: 700px;
+        }
+
+        .carousel-caption h1 {
+            font-size: 60px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .carousel-caption h1 span {
+            color: #ffd700;
+        }
+
+        .small-title {
+            color: #ffd700;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .custom-btn {
+            background: #8b0000;
+            color: white;
+            padding: 13px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .custom-btn:hover {
+            background: #ffd700;
+            color: #333;
+        }
+
+
+        /* SECTION */
+
+        section {
+            padding: 90px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 40px;
+            font-weight: 700;
+            color: #8b0000;
+        }
+
+
+        /* ABOUT */
+
+        .about {
+            background: #fff8e7;
+        }
+
+        .about-image-wrap {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .about-image-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.85));
+        }
+
+        .about-thumb {
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .about-thumb h2 {
+            color: #8b0000;
+            font-weight: 700;
+        }
+
+        .about-thumb h5 {
+            color: #a0522d;
+        }
+
+        .info-box {
+            height: 100%;
+            color: white;
+            padding: 35px;
+            border-radius: 15px;
+        }
+
+        .red-box {
+            background: #8b0000;
+        }
+
+        .gold-box {
+            background: #d4af37;
+        }
+
+
+        /* PLACES */
+
+        .places {
+            background: #fff;
+        }
+
+        .place-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            transition: 0.4s;
+            height: 100%;
+        }
+
+        .place-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .place-info {
+            padding: 25px;
+        }
+
+        .place-info h4 {
+            color: #8b0000;
+            font-weight: 700;
+        }
+
+        .place-info p {
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .place-icon {
+            color: #d4af37;
+            margin-right: 5px;
+        }
+
+
+        /* WHY MYSURU */
+
+        .why-mysuru {
+            background: #8b0000;
+            color: white;
+        }
+
+        .why-mysuru h2 {
+            color: #ffd700;
+        }
+
+        .feature-box {
+            padding: 30px;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .feature-box:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .feature-box i {
+            font-size: 45px;
+            color: #ffd700;
+            margin-bottom: 20px;
+        }
+
+        .feature-box h4 {
+            color: #ffd700;
+        }
+
+
+        /* GALLERY */
+
+        .gallery {
+            background: #fff8e7;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            transition: 0.4s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+
+        /* CONTACT */
+
+        .contact {
+            background: #f5f5f5;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        }
+
+        .form-control {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        }
+
+        .contact-info h4 {
+            color: #8b0000;
+        }
+
+        .contact-icon {
+            color: #d4af37;
+        }
+
+
+        /* FOOTER */
+
+        .site-footer {
+            background: #3b0000;
+            padding: 30px 0;
+            color: white;
+        }
+
+        .site-footer p {
+            margin: 0;
+        }
+
+        .footer-social {
+            justify-content: flex-end;
+        }
+
+
+        /* RESPONSIVE */
+
+        @media(max-width: 768px) {
+
+            .carousel-caption h1 {
+                font-size: 40px;
+            }
+
+            .hero {
+                height: 75vh;
+            }
+
+            .social-icon {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+
+            .navbar-nav .nav-link {
+                margin-left: 0;
+            }
+
+            .about-image {
+                height: 350px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <p class="text-white mb-0">
+                        <i class="bi-clock site-header-icon me-2"></i>
+                        Open for visitors every day
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <p class="text-white mb-0">
+                        <i class="bi-geo-alt site-header-icon me-2"></i>
+                        Mysuru, Karnataka, India
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 col-12">
+
+                    <ul class="social-icon">
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+
+        <div class="container">
+
+            <a href="file:///C:/Dhanu/website%20mysuru/index.html#home" class="logo">
+                MYSURU<span> Tourism</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Dhanu/website%20mysuru/index.html#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Dhanu/website%20mysuru/index.html#about">
+                            About Mysuru
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Dhanu/website%20mysuru/index.html#places">
+                            Places
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Dhanu/website%20mysuru/index.html#why">
+                            Importance
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Dhanu/website%20mysuru/index.html#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+
+        <!-- HERO SECTION -->
+
+        <section class="hero" id="home">
+
+            <div id="mysuruCarousel" class="carousel slide carousel-fade pointer-event" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+
+                    <!-- SLIDE 1 -->
+
+                    <div class="carousel-item">
+
+                        <div class="carousel-image-wrap">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\palace.jpg" class="carousel-image" alt="Mysuru Palace">
+
+                        </div>
+
+                        <div class="container position-relative h-100">
+
+                            <div class="carousel-caption d-flex flex-column justify-content-center">
+
+                                <small class="small-title">
+                                    NAMASKARA MYSURU
+                                </small>
+
+                                <h1>
+                                    Explore
+                                    <span>Mysuru</span>
+                                    and Discover its Beauty
+                                </h1>
+
+                                <p class="text-white fs-5">
+                                    Welcome to the City of Palaces,
+                                    culture, heritage and royal traditions.
+                                </p>
+
+                                <div class="mt-4">
+
+                                    <a href="file:///C:/Dhanu/website%20mysuru/index.html#places" class="custom-btn">
+                                        Explore Places
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 2 -->
+
+                    <div class="carousel-item">
+
+                        <div class="carousel-image-wrap">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\temple.jpg" class="carousel-image" alt="Chamundi Hills">
+
+                        </div>
+
+                        <div class="container position-relative h-100">
+
+                            <div class="carousel-caption d-flex flex-column justify-content-center">
+
+                                <small class="small-title">
+                                    Experience Nature
+                                </small>
+
+                                <h1>
+                                    Visit
+                                    <span>Chamundi Hills</span>
+                                </h1>
+
+                                <p class="text-white fs-5">
+                                    Enjoy beautiful views of Mysuru
+                                    from the historic Chamundi Hills.
+                                </p>
+
+                                <div class="mt-4">
+
+                                    <a href="file:///C:/Dhanu/website%20mysuru/index.html#places" class="custom-btn">
+                                        Discover More
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SLIDE 3 -->
+
+                    <div class="carousel-item active">
+
+                        <div class="carousel-image-wrap">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\brindavan garden.webp" class="carousel-image" alt="Brindavan Gardens">
+
+                        </div>
+
+                        <div class="container position-relative h-100">
+
+                            <div class="carousel-caption d-flex flex-column justify-content-center">
+
+                                <small class="small-title">
+                                    Beauty of Mysuru
+                                </small>
+
+                                <h1>
+                                    Experience
+                                    <span>Royal Karnataka</span>
+                                </h1>
+
+                                <p class="text-white fs-5">
+                                    From magnificent palaces to beautiful
+                                    gardens, Mysuru has something for everyone.
+                                </p>
+
+                                <div class="mt-4">
+
+                                    <a href="file:///C:/Dhanu/website%20mysuru/index.html#about" class="custom-btn">
+                                        Know Mysuru
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mysuruCarousel" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+
+                <button class="carousel-control-next" type="button" data-bs-target="#mysuruCarousel" data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT MYSURU -->
+
+        <section class="about" id="about">
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+
+                        <div class="about-image-wrap">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\palace.jpg" class="about-image" alt="Mysuru Palace">
+
+                            <div class="about-image-info">
+
+                                <h3 class="text-white">
+                                    Mysuru Palace
+                                </h3>
+
+                                <p class="text-white mb-0">
+                                    The iconic symbol of Mysuru's royal heritage.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-6 col-12">
+
+                        <div class="about-thumb bg-white shadow-lg">
+
+                            <small class="small-title">
+                                About Mysuru
+                            </small>
+
+                            <h2 class="mb-3">
+                                The City of Palaces
+                            </h2>
+
+                            <h5 class="mb-4">
+                                A city of culture, heritage and tradition
+                            </h5>
+
+                            <p>
+                                Mysuru is one of the most popular tourist
+                                destinations in Karnataka. It is famous for
+                                its magnificent palaces, beautiful gardens,
+                                historic monuments and rich cultural heritage.
+                            </p>
+
+                            <p>
+                                Mysuru was historically associated with the
+                                Wadiyar dynasty and played an important role
+                                in the history and culture of the region.
+                            </p>
+
+                            <p>
+                                The city is also famous for the grand
+                                <strong>Mysuru Dasara</strong> celebrations,
+                                attracting visitors from different parts
+                                of India and the world.
+                            </p>
+
+                        </div>
+
+
+                        <div class="row">
+
+                            <div class="col-md-6 col-12">
+
+                                <div class="info-box red-box">
+
+                                    <h4>
+                                        Royal Heritage
+                                    </h4>
+
+                                    <p>
+                                        Discover magnificent palaces,
+                                        historical buildings and royal
+                                        traditions.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-6 col-12">
+
+                                <div class="info-box gold-box">
+
+                                    <h4>
+                                        Cultural Capital
+                                    </h4>
+
+                                    <p>
+                                        Experience art, music, festivals,
+                                        food and traditional crafts.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAMOUS PLACES -->
+
+        <section class="places" id="places">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <small class="small-title">
+                        Tourist Attractions
+                    </small>
+
+                    <h2>
+                        Famous Places to Visit in Mysuru
+                    </h2>
+
+                    <p>
+                        Explore some of the most beautiful and popular
+                        attractions in and around Mysuru.
+                    </p>
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <!-- PLACE 1 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\palace.jpg" alt="Mysuru Palace">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-building place-icon"></i>
+                                    Mysuru Palace
+                                </h4>
+
+                                <p>
+                                    One of India's most famous palaces,
+                                    Mysuru Palace is known for its magnificent
+                                    architecture, royal interiors and
+                                    spectacular illumination.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PLACE 2 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\temple.jpg" alt="Chamundi Hills">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-mountain place-icon"></i>
+                                    Chamundi Hills
+                                </h4>
+
+                                <p>
+                                    Located near Mysuru, Chamundi Hills is
+                                    famous for the Chamundeshwari Temple and
+                                    offers beautiful panoramic views of the city.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PLACE 3 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\brindavan garden.webp" alt="Brindavan Gardens">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-flower1 place-icon"></i>
+                                    Brindavan Gardens
+                                </h4>
+
+                                <p>
+                                    Located near the Krishnarajasagara Dam,
+                                    Brindavan Gardens is famous for its
+                                    landscaped gardens and musical fountain.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PLACE 4 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\chamundi hill.jpg" alt="Chamundeshwari Temple">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-house-heart place-icon"></i>
+                                    Chamundeshwari Temple
+                                </h4>
+
+                                <p>
+                                    A historic temple located on Chamundi
+                                    Hill and one of the important spiritual
+                                    landmarks of Mysuru.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PLACE 5 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\zoo.webp" alt="Mysuru Zoo">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-tree place-icon"></i>
+                                    Mysuru Zoo
+                                </h4>
+
+                                <p>
+                                    Sri Chamarajendra Zoological Gardens,
+                                    commonly called Mysuru Zoo, is a popular
+                                    destination for wildlife and nature lovers.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PLACE 6 -->
+
+                    <div class="col-lg-4 col-md-6 col-12">
+
+                        <div class="place-card">
+
+                            <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\church.jpg" alt="St Philomena Church">
+
+                            <div class="place-info">
+
+                                <h4>
+                                    <i class="bi bi-bank place-icon"></i>
+                                    St. Philomena's Church
+                                </h4>
+
+                                <p>
+                                    A beautiful neo-Gothic church known for
+                                    its impressive architecture and tall
+                                    twin spires.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- IMPORTANCE OF MYSURU -->
+
+        <section class="why-mysuru" id="why">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <small class="small-title">
+                        Why Mysuru?
+                    </small>
+
+                    <h2>
+                        Importance of Mysuru
+                    </h2>
+
+                    <p>
+                        Mysuru is much more than a tourist destination.
+                        It is an important centre of culture, history,
+                        education and tourism.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-lg-3 col-md-6 col-12">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-building"></i>
+
+                            <h4>
+                                Heritage
+                            </h4>
+
+                            <p>
+                                Mysuru is known for its royal history,
+                                palaces and magnificent architecture.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-12">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-stars"></i>
+
+                            <h4>
+                                Dasara
+                            </h4>
+
+                            <p>
+                                Mysuru Dasara is one of the city's most
+                                famous cultural celebrations.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-12">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-palette"></i>
+
+                            <h4>
+                                Culture
+                            </h4>
+
+                            <p>
+                                The city is famous for traditional arts,
+                                music, crafts, food and celebrations.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-12">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-camera"></i>
+
+                            <h4>
+                                Tourism
+                            </h4>
+
+                            <p>
+                                Mysuru attracts visitors with its palaces,
+                                gardens, temples and natural beauty.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+
+        <section class="gallery">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <small class="small-title">
+                        Beautiful Mysuru
+                    </small>
+
+                    <h2>
+                        Experience the City
+                    </h2>
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\palace.jpg" alt="Mysuru Palace">
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\temple.jpg" alt="Chamundi Hills">
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\brindavan garden.webp" alt="Brindavan Gardens">
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\zoo.webp" alt="Mysuru Zoo">
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\church.jpg" alt="St Philomena Church">
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <img src="C:\Dhanu\Mysuru Tourism _ Explore the City of Palaces_files\images\chamundi hill.jpg" alt="Chamundeshwari Temple">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact" id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+
+                        <div class="contact-form">
+
+                            <small class="small-title">
+                                Contact
+                            </small>
+
+                            <h2 class="mb-4">
+                                Plan Your Mysuru Trip
+                            </h2>
+
+                            <p>
+                                Have questions about visiting Mysuru?
+                                Send us a message.
+                            </p>
+
+                            <form>
+
+                                <input type="text" class="form-control" placeholder="Your Name" required="">
+
+                                <input type="email" class="form-control" placeholder="Your Email" required="">
+
+                                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+
+                                <button type="submit" class="custom-btn">
+                                    Send Message
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-6 col-12">
+
+                        <div class="contact-info">
+
+                            <h4 class="mb-4">
+                                <i class="bi bi-geo-alt contact-icon"></i>
+                                Visit Mysuru
+                            </h4>
+
+                            <p>
+                                Mysuru, Karnataka, India
+                            </p>
+
+                            <h5 class="mt-4">
+                                <i class="bi bi-telephone contact-icon"></i>
+                                Tourism Information
+                            </h5>
+
+                            <p>
+                                Explore the city and experience
+                                its royal heritage.
+                            </p>
+
+                            <h5 class="mt-4">
+                                <i class="bi bi-envelope contact-icon"></i>
+                                Email
+                            </h5>
+
+                            <p>
+                                mysurutourism@example.com
+                            </p>
+
+
+                            <!-- GOOGLE MAP -->
+
+                            <iframe class="mt-3" src="./Mysuru Tourism _ Explore the City of Palaces_files/maps.html" width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 col-12">
+
+                    <p>
+                        Copyright © 2026 Mysuru Tourism
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-6 col-12">
+
+                    <ul class="social-icon footer-social">
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-facebook"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li>
+                            <a href="file:///C:/Dhanu/website%20mysuru/index.html#" class="social-icon-link bi-youtube"></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="./Mysuru Tourism _ Explore the City of Palaces_files/bootstrap.bundle.min.js.download"></script>
+
+
+
+</body></html>
